@@ -1,0 +1,19 @@
+name: NoBlockDrop
+main: me.MC_Elmo.NoBlockDrop
+author: MC_Elmo
+version: 1.0
+description: Disables the Dropping of Broken blocks while Inv is full.
+
+commands:
+   noblockdrop:
+      description: Base Command for NoBlockDrop
+      aliases: [nbd]
+      usage: /<command>
+
+permissions:
+   noblockdrop.bypass:
+      description: Bypass the NoBlockDrop Plugin.
+      default: op
+   noblockdrop.reload:
+      description: Reload the NoBlockDrop Plugin
+      default: op

@@ -1,0 +1,18 @@
+NoBlockDrop:
+   enabled: true
+
+   #While Set to "False",the Block will not Drop Items But will still break and send the message.
+   #While Set to "True", the BlockBreak will be cancelled and the message will be sent.
+   #While Set to "message", the block will break as usual and the message will be sent.
+   cancel_break: "True"
+
+   #Plugin will not apply to these blocsk
+   allowed_blocks:
+     #Block ID Then Data Seperated by :
+     #Example: 31:1 For Grass   175:2 For Tall Grass
+
+     - '31:1'
+     - '175:2'
+
+  #Send the player a message when their inventory is full and they break a block.
+   message: "&4&lYour inventory is full!"
